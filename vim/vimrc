@@ -1,5 +1,6 @@
 set number
 set incsearch
+set nohlsearch
 set foldlevel=3
 set textwidth=80
 set tabstop=2
