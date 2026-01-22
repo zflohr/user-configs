@@ -2,7 +2,8 @@
 
 ## Linux:
 
-~/.bash\_aliases &#8594; ~/github/[user-configs/bash/aliases](./bash/aliases)  
+~/.bashrc &#8594; ~/github/[user-configs/bash/.bashrc](./bash/.bashrc)  
+~/.bashrc.d/ &#8594; ~/github/[user-configs/bash/.bashrc.d/](./bash/.bashrc.d/)  
 ~/.ssh/config &#8594; ~/github/[user-configs/ssh/config](./ssh/config)  
 ~/.vim/vimrc &#8594; ~/github/[user-configs/vim/vimrc](./vim/vimrc)  
 ~/.vim/after/ &#8594; ~/github/[user-configs/vim/after/](./vim/after/)
