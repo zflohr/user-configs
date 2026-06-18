@@ -1,2 +1,5 @@
 Host github.com
   IdentityFile ~/.ssh/github
+
+Host gitlab.altamiracorp.com
+  IdentityFile ~/.ssh/gitlab
