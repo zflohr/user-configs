@@ -8,7 +8,14 @@ set expandtab
 set shiftwidth=2
 set ignorecase
 set modeline
+syntax enable
 
 " Enable filetype detection and loading filetype-specific plugin and
 " indent files.
 filetype plugin indent on
+
+" autocmd group for .env files
+augroup dotenv
+  autocmd!
+  autocmd BufNewFile,BufRead .env setlocal cc=0
+augroup END
