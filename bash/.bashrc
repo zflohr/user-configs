@@ -86,7 +86,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-! [ -d "$HOME/.bashrc.d" ] ||
+! [ -d "$HOME/.bashrc.d" ] || {
+    [ -f "$HOME/.bashrc.d/.env" ] && . "$HOME/.bashrc.d/.env"
     for file in $HOME/.bashrc.d/*.sh; do
         ! [ -r "$file" ] || . "$file"
     done
+}

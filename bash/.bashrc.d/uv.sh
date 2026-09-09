@@ -1,1 +1,5 @@
 export SSL_CERT_FILE="/etc/ssl/certs/ca-certificates.crt"
+export UV_INDEX_SOCC_USERNAME="${DEPOT_USERNAME}"
+export UV_INDEX_SOCC_PASSWORD="${PAT}"
+export UV_INDEX_NASIC_USERNAME="${DEPOT_USERNAME}"
+export UV_INDEX_NASIC_PASSWORD="${PAT}"
