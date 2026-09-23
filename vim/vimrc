@@ -1,5 +1,6 @@
 set number
 highlight Search ctermbg=120
+highlight Comment ctermfg=8
 set incsearch
 set hlsearch
 set foldlevel=3
