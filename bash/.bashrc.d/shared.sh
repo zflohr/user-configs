@@ -1,4 +1,9 @@
-# Add shared stuff to PATH
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
+# Prepend user-installed binaries to PATH if they aren't added yet
+
+case ":${PATH}:" in
+    *:"$HOME/.local/bin":*)
+        ;;
+    *)
+        export PATH="$HOME/.local/bin:$PATH"
+        ;;
+esac
